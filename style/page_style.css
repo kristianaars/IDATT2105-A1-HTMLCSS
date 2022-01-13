@@ -1,0 +1,64 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    display: grid;
+    grid-template-rows: 128px auto 54px;
+    min-height: 100vh;
+
+}
+
+.header, .content, .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header {
+
+}
+
+.content {
+
+}
+
+.footer {
+    background: black;
+    color: white;
+}
+
+.menu-ul {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+
+.menu-li {
+    float: left;
+}
+
+.menu-li-logo {
+    float: left;
+    padding: 18px 32px 18px 0px;
+}
+
+.menu-li-logo img {
+    margin-top: -2px;
+}
+
+.menu-li a {
+    color: black;
+    font-family: Avenir, serif;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 32px;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    padding: 22px 42px 16px 42px;
+}
+
+.menu-li:hover {
+    background: #eeeeee;
+}
