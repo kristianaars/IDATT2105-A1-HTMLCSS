@@ -1,4 +1,12 @@
 # IDATT2105-A1-HTMLCSS
+Responsive web-page created as an assignment for the IDATT2105 coruse.
+
+Technologies:
+- HTML5
+- CSS
+- JavaScript
+
+
 
 ## Desktop
 ![Screenshot 2022-01-14 at 17 08 38 copy](https://user-images.githubusercontent.com/7690439/149547888-cfbb2045-49e4-4b79-9b3a-c2e91a3903af.jpg)
