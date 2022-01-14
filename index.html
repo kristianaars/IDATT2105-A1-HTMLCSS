@@ -4,27 +4,76 @@
     <meta charset="UTF-8">
     <title>IDATT2105 Assignment 1</title>
     <link rel="stylesheet" type="text/css" href="style/page_style.css">
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0" />
 </head>
 
 <body>
 
     <div class="header">
-        <ul class="menu-ul">
-            <li class="menu-li-logo"><img src="img/header-logo@2x.png" height="32" /></li>
-            <li class="menu-li"><a href="#"><div>HOME</div></a></li>
-            <li class="menu-li"><a href="#">SHOP</a></li>
-            <li class="menu-li"><a href="#">ABOUT</a></li>
-            <li class="menu-li"><a href="#">CONTACT</a></li>
-        </ul>
+        <div class="header-menu">
+            <div class="menu-li-logo"><img src="img/header-logo@2x.png" height="32" /></div>
+
+            <ul class="header-menu-ul" id="menu">
+                <li class="menu-li"><a href="#"><div>HOME</div></a></li>
+                <li class="menu-li"><a href="#">SHOP</a></li>
+                <li class="menu-li"><a href="#">ABOUT</a></li>
+                <li class="menu-li"><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <button class="menu-ul-button" onclick="getElementById('menu').style.display = 'inline';"></button>
     </div>
 
     <div class="content">
-        <h1>Content</h1>
+        <div id="content_landing_img"></div>
 
+        <h1 id="content_welcome">Welcome!</h1>
+
+        <h1 id="main_content_header">The 3 largest mountains in the world</h1>
+        <p id="main_content_description">This is a rundown of the three largest mountains in the world. Each mountain is suplemented with a picture, fact-section, and its height. Enjoy :) </p>
+
+        <div id="main_content">
+            <div class="content_col">
+                <h2>1. Mount Everest</h2>
+                <p><i>8848,6 m</i></p>
+
+                <img src="img/mount_everest.jpg">
+
+                <p>
+                    Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas.</br>
+                    The China–Nepal border runs across its summit point. Its elevation (snow height) of 8,848.86 m was most recently established in 2020 by the Chinese and Nepali authorities.
+                    </br>
+                    <a href="https://en.wikipedia.org/wiki/Mount_Everest">(Wikipedia)</a>
+                </p>
+            </div>
+
+            <div class="content_col">
+                <h2>2. K2</h2>
+                <p><i>8848,6 m</i></p>
+                <img src="img/k2.jpg">
+                <p>
+                    K2, at 8,611 metres above sea level, is the second-highest mountain on Earth, after Mount Everest (at 8,849 metres). It lies in the Karakoram range, partially in the Gilgit-Baltistan region of Pakistan-administered Kashmir and partially in a China-administered territory of the Kashmir region included in the Taxkorgan Tajik Autonomous County of Xinjiang.
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/K2">(Wikipedia)</a>
+                </p>
+            </div>
+
+            <div class="content_col">
+                <h2>3. Kanchenjunga</h2>
+                <p><i>8586,0 m</i></p>
+                <img src="img/mount_kanchenjunga.jpg">
+                <p>
+                    Kangchenjunga, also spelled Kanchenjunga, is the third highest mountain in the world. It rises with an elevation of 8,586 m in a section of the Himalayas called Kangchenjunga Himal delimited in the west by the Tamur River, in the north by the Lhonak Chu and Jongsang La, and in the east by the Teesta River. <br>
+                    <a href="https://en.wikipedia.org/wiki/Kangchenjunga">(Wikipedia)</a>
+                </p>
+            </div>
+        </div>
     </div>
 
     <div class="footer">
-        <img id="footer_logo" src="img/footer-logo@2x.png" height="24" />
+        <div class="footer_content">
+            <img id="footer_logo" src="img/footer-logo@2x.png" height="24" />
+        </div>
 
     </div>
 
