@@ -45,6 +45,10 @@ body {
     grid-auto-flow: column;
 }
 
+.footer_content p {
+    text-align: right;
+}
+
 h1, h2, h3 {
     font-family: OpenSans, serif;
 }
@@ -94,7 +98,7 @@ a {
 }
 
 #footer_logo {
-
+    margin-top: 10px;
 }
 
 .header-menu-ul {
